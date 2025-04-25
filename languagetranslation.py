@@ -7,7 +7,7 @@ from transformers import pipeline
 st.title("🌐 Language Translation App")
 
 # Define a list of supported languages
-languages = ["en", "fr", "de", "es", "it", "pt", "ro", "nl", "pl", "ru", "zh", "ja", "ar","hi"]
+languages = ["en", "fr", "de", "es", "it", "pt", "ro", "nl", "pl", "ru", "zh", "ja", "ar","hi","te"]
 
 # Language selection
 input_lang = st.selectbox("Select Input Language:", languages, index=0)
